@@ -10,51 +10,68 @@
     <script src="JS/foundation.min.js"></script>
     <link href="CSS/foundation-icons.css" rel="stylesheet" />
     <link href="css/foundation.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
 
-    <!-- Three js for locating user's city -->
-    <script type="text/javascript" src="js/jquery.js"></script> 
-    <script type="text/javascript" src="js/jquery.cityselect.js"></script> 
+    <!-- Three js for locating user's city --> 
     <script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php? 
     format=js"></script>
 
     <!-- JS fonction for user's location -->
     <script>
-        var mycity = remote_ip_info['city']
+        var userCity = remote_ip_info['city']
     </script>
     <!-- js&css section end-->
     <!-- Navigation section-->
-            <div class="icon-bar six-up large-10">
-                <a class="item">
-                    <img src="../img/nav/fi-home.svg">
-                    <label>Home</label>
-                </a>
-                <a class="item">
-                    <img src="../img/nav/fi-book.svg">
-                    <label>About Me</label>
-                </a>
-                <a class="item">
-                    <img src="../img/nav/fi-web.svg">
-                    <label>Projects</label>
-                </a>
-                <a class="item">
-                    <img src="../img/nav/fi-laptop.svg">
-                    <label>Services</label>
-                </a>
-                <a class="item">
-                    <img src="../img/nav/fi-compass.svg">
-                    <label>GitHub</label>
-                </a>
-                <a class="item">
-                    <img src="../img/nav/fi-mail.svg">
-                    <label>Contact Me</label>
-                </a>
+    <div class="row">
+            <div class="logoDiv">
+                <img src="../img/logo.gif">
             </div>
-        <!-- Navigation section end-->
+        <div class="icon-bar vertical six-up left">
+            <a class="item">
+                <img src="../img/nav/fi-home.svg">
+                <label>Home</label>
+            </a>
+            <a class="item">
+                <img src="../img/nav/fi-book.svg">
+                <label>About Me</label>
+            </a>
+            <a class="item">
+                <img src="../img/nav/fi-web.svg">
+                <label>Projects</label>
+            </a>
+            <a class="item">
+                <img src="../img/nav/fi-laptop.svg">
+                <label>Services</label>
+            </a>
+            <a class="item">
+                <img src="../img/nav/fi-compass.svg">
+                <label>GitHub</label>
+            </a>
+            <a class="item">
+                <img src="../img/nav/fi-mail.svg">
+                <label>Contact Me</label>
+            </a>
+        </div>
+    <!-- Navigation section end-->
 
-    <!-- welcom statement -->
-    <div>
-        <h1>Welcome <script>document.write(mycity);</script> User</h1>
-    </div>
-    <!-- welcom statement end -->
+        <!-- welcom statement -->
+        <div>
+            <h1>Welcome <script>document.write(userCity);</script> User</h1>
+        </div>
+        <!-- welcom statement end -->
+
+        <!-- Personal tagline -->
+        <div>
+            <h3>Trip To Vancouver</h3>
+        </div>
+        <!-- personal tagline end -->
+        </div>
+
+
+
+    <footer>
+        <div class="row">
+            copyright RenFa Feng, powered by foundation zurb
+        </div></footer>
 </body>
 </html>

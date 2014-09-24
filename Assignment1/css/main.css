@@ -1,2 +1,18 @@
-﻿#space {
+﻿body {
+    color:white;
+}
+h1 {
+    color:white;
+}
+h3 {
+    color:white;
+}
+.logoDiv {
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+    box-sizing: border-box;
+    background-size: auto;
+}
+.row {
+    background-color: rgb(51, 51, 51);
 }
