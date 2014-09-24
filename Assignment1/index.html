@@ -11,14 +11,24 @@
     <link href="CSS/foundation-icons.css" rel="stylesheet" />
     <link href="css/foundation.css" rel="stylesheet" />
 
+    <!-- Three js for locating user's city -->
+    <script type="text/javascript" src="js/jquery.js"></script> 
+    <script type="text/javascript" src="js/jquery.cityselect.js"></script> 
+    <script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php? 
+    format=js"></script>
+
+    <!-- JS fonction for user's location -->
+    <script>
+        var mycity = remote_ip_info['city']
+    </script>
     <!-- js&css section end-->
     <!-- Navigation section-->
-            <div class="icon-bar six-up large-6">
+            <div class="icon-bar six-up large-10">
                 <a class="item">
                     <img src="../img/nav/fi-home.svg">
                     <label>Home</label>
                 </a>
-                <a class="item ">
+                <a class="item">
                     <img src="../img/nav/fi-book.svg">
                     <label>About Me</label>
                 </a>
@@ -40,5 +50,11 @@
                 </a>
             </div>
         <!-- Navigation section end-->
+
+    <!-- welcom statement -->
+    <div>
+        <h1>Welcome <script>document.write(mycity);</script> User</h1>
+    </div>
+    <!-- welcom statement end -->
 </body>
 </html>
