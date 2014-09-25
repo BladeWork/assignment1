@@ -23,3 +23,7 @@ h3 {
 .container {
     background-color: rgb(51, 51, 51);
 }
+
+#slides {
+    display:none;
+}
