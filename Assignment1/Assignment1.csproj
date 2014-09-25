@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="home.html" />
     <Content Include="img\.gitkeep" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -78,6 +79,9 @@
     <Content Include="img\nav\fi-laptop.svg" />
     <Content Include="img\nav\fi-mail.svg" />
     <Content Include="img\nav\fi-web.svg" />
+    <Content Include="img\SLV-Bg-Shangri-La-Hotel-Vancouver-v4.jpg" />
+    <Content Include="img\TBCCWDisplay.jpg" />
+    <Content Include="img\vancouver_aerial.jpg" />
     <Content Include="index.html" />
     <Content Include="css\foundation-icons.css" />
     <Content Include="js\foundation.min.js" />
