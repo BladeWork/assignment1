@@ -1,5 +1,6 @@
 ﻿.contained {
     color:white;
+    background-color:grey;
 }
  .welcomeInfo {
     color:white;
@@ -16,13 +17,11 @@ h3 {
     box-sizing: border-box;
     width:16.66%;
 }
-.row {
-    background-color: rgb(51, 51, 51);
-}
+
 
 .container {
     background-color: rgb(51, 51, 51);
 }
 .current_page {
-    background-color: lightgray;
+    background-color: lightblue;
 }
