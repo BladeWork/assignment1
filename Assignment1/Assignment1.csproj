@@ -60,7 +60,7 @@
     <Content Include="aboutme.html" />
     <Content Include="contactme.html" />
     <Content Include="css\reset.css" />
-    <Content Include="home.html" />
+    <Content Include="gallery_self.html" />
     <Content Include="img\.gitkeep" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,24 +75,24 @@
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="humans.txt" />
-    <Content Include="img\fi-book.png" />
     <Content Include="img\logo.gif" />
     <Content Include="img\logo.jpg" />
+    <Content Include="img\mypic\mypicture.jpg" />
+    <Content Include="img\mypic\mypicture_small.jpg" />
+    <Content Include="img\mypic\reseum.jpg" />
     <Content Include="img\nav\fi-book.jpg" />
-    <Content Include="img\nav\fi-book.svg" />
     <Content Include="img\nav\fi-compass.jpg" />
-    <Content Include="img\nav\fi-compass.svg" />
     <Content Include="img\nav\fi-home.jpg" />
-    <Content Include="img\nav\fi-home.svg" />
     <Content Include="img\nav\fi-laptop.jpg" />
-    <Content Include="img\nav\fi-laptop.svg" />
     <Content Include="img\nav\fi-mail.jpg" />
-    <Content Include="img\nav\fi-mail.svg" />
     <Content Include="img\nav\fi-web.jpg" />
-    <Content Include="img\nav\fi-web.svg" />
-    <Content Include="img\SLV-Bg-Shangri-La-Hotel-Vancouver-v4.jpg" />
-    <Content Include="img\TBCCWDisplay.jpg" />
-    <Content Include="img\vancouver_aerial.jpg" />
+    <Content Include="img\projects\azure_programming.jpg" />
+    <Content Include="img\projects\extreme_programming.jpg" />
+    <Content Include="img\projects\news_management.jpg" />
+    <Content Include="img\social\fi-mail.jpg" />
+    <Content Include="img\social\fi-social-facebook.jpg" />
+    <Content Include="img\social\fi-social-github.jpg" />
+    <Content Include="img\social\fi-social-twitter.jpg" />
     <Content Include="index.html" />
     <Content Include="css\foundation-icons.css" />
     <Content Include="js\foundation.min.js" />
@@ -121,7 +121,6 @@
     <Content Include="projects.html" />
     <Content Include="robots.txt" />
     <Content Include="services.html" />
-    <Content Include="test.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

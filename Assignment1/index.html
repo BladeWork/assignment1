@@ -9,6 +9,9 @@
     <!-- js section -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.slider.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
 
     <!-- js for locating user's city --> 
     <script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php? 
@@ -29,12 +32,12 @@
     <div class="contained">
     <!-- Navigation section-->
     <div class="row">
-            <div class="logoDiv small-2 medium-2 large-2 columns">
+            <div class="logoDiv small-2 medium-2 large-2 columns hide-on-phones">
                 <img src="img/logo.jpg" />
             </div>
     </div>
     <div class="row">
-        <div class="icon-bar six-up small-10 medium-10 large-10 columns">
+        <div class="icon-bar six-up small-10 medium-10 large-10 columns hide-on-phones">
             <a class="item current_page" href="index.html">
                 <img src="img/nav/fi-home.jpg" />
                 <label>Home</label>
@@ -63,7 +66,7 @@
     </div><!-- end of a row -->
     <!-- Navigation section end-->
 
-    <div class="row">
+    <div class="row hide-on-phones">
     <!-- welcom statement -->
     <div>
         <h1 class="welcomeInfo">Welcom <script>document.write(userCity);</script> Guest</h1>
@@ -75,6 +78,10 @@
         <h3 class="tagLine">Let's Code for Easier Life</h3>
     </div>
     <!-- personal tagline end -->
+    <div class="row ">
+        <a href="aboutme.html" class="button">Next</a>
+    </div>
+
     <div>
         <article>
             content place
@@ -82,11 +89,9 @@
     </div>
     </div><!--end of row -->
 
-        <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-
-        <div class="row">
+        <!-- Slider section -->
         <div class="orbit-container">
-            <ul data-orbit class="example-orbit orbit-slides-container">
+            <ul data-orbit="" class="example-orbit orbit-slides-container">
                 <li>
                     <img src="img/TBCCWDisplay.jpg" alt="slide 1" />
                     <div class="orbit-caption">
@@ -128,12 +133,24 @@
             <li data-orbit-slide-number="2" class="active"></li>
             <li data-orbit-slide-number="3"></li>
         </ol>
-        </div><!-- end of row -->
 
-        <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+        <!-- Slider section end -->
+
+        <!-- Keep Connect Panel -->
+        <div class="panel callout radius right">
+            <h5>Keep Connected.</h5>
+            <a href="#" class="button split">Select connect way<span data-dropdown="drop"></span></a><br>
+            <ul id="drop" class="f-dropdown" data-dropdown-content>
+                <li><a href="mailto:fengtlyer@gmail.com"><img src="img/social/fi-mail.jpg" /></a></li>
+                <li><a href="https://www.facebook.com/fengtlyer"><img src="img/social/fi-social-facebook.jpg" /></a></li>
+                <li><a href="http://twitter.com/FengOverFlow"><img src="img/social/fi-social-twitter.jpg" /></a></li>
+                <li><a href="https://github.com/BladeWork"><img src="img/social/fi-social-github.jpg" /></a></li>
+            </ul>
+        </div>
+        <!-- Keep Connect Panel end -->
 
     <footer>
-        <div class="row">
+        <div class="row hide-on-phones">
             <p>@2014 copyright RenFa Feng, powered by <a href="http://foundation.zurb.com/">foundation zurb </a>, All rights reserved.</p>
         </div>
     </footer>
